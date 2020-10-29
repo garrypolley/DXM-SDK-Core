@@ -10,14 +10,17 @@
     "node": ">=12"
   },
   "files": [
-    "lib/**/*", "dxm/dxm-cl-patch-for-sdk-latest.xml"
+    "lib/**/*",
+    "dxm/dxm-cl-patch-for-sdk-latest.xml"
   ],
   "dependencies": {
     "crownpeak-dxm-accessapi-helper": "^1.0.5",
+    "isomorphic-unfetch": "^3.1.0",
     "minimist": "^1.2.5",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
     "prettier": "^2.0.5",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",

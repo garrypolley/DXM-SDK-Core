@@ -1,5 +1,6 @@
 import CmsDataCache from '../common/cmsDataCache';
 import { ICmsDataProvider } from './ICmsDataProvider';
+import fetch from 'isomorphic-unfetch';
 
 export default class CmsDynamicDataProvider implements ICmsDataProvider {
   private async _getData(query: string) {
